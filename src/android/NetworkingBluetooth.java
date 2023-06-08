@@ -56,7 +56,7 @@ public class NetworkingBluetooth extends CordovaPlugin {
 	public static final int REQUEST_ENABLE_BT = 1773;
 	public static final int REQUEST_DISCOVERABLE_BT = 1885;
 	public static final int START_DISCOVERY_REQ_CODE = 1997;
-	public static final int READ_BUFFER_SIZE = 4096;
+	public static final int READ_BUFFER_SIZE = 1024;
 
 	public class SocketSendData {
 		public CallbackContext mCallbackContext;
